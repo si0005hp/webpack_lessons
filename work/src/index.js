@@ -3,6 +3,11 @@ import './style.css'
 import pic from './images/sample.jpg'
 import xml from './xml/sample.xml'
 
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+
 console.log(APP_NAME);
 hello();
 console.log(Figure.getTriangle(30, 5));
@@ -25,3 +30,7 @@ window.addEventListener('DOMContentLoaded', function() {
 console.log(xml.data.row[0]);
 console.log(xml.data.row[0].$.id);
 console.log(xml.data.row[0]._);
+
+
+// React
+ReactDOM.render(<App />, document.getElementById('app'));
