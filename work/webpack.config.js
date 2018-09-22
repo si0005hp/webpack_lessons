@@ -35,6 +35,11 @@ module.exports = {
                 use: [
                     'xml-loader'
                 ]
+            },
+            {
+                test: /\.js$/,
+                loader: 'babel-loader',
+                exclude: /node_modules/,
             }
         ]
     }
