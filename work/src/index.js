@@ -1,5 +1,6 @@
 import { APP_NAME, hello, Figure } from './myutil';
 import './style.css'
+import './style.scss';
 import pic from './images/sample.jpg'
 import xml from './xml/sample.xml'
 
